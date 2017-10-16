@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "定位查询",
+    "icon": "&#xe753;",
+    "sort": 1,
+    "sub": [
+      {
+        "name": "单个定位",
+        "link": "/single_tracking",
+        "sort": 1
+      },
+      {
+        "name": "批量定位",
+        "link": "/batch_tracking",
+        "sort": 2
+      },
+      {
+        "name":"操作日志",
+        "link": "/log_operation",
+        "sort": 3
+      }
+    ]
+  }
+]

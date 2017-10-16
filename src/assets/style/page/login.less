@@ -1,0 +1,115 @@
+.login-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image:-webkit-linear-gradient(to top left, #000, #ccc);
+  background-image:linear-gradient(to top left,#000, #ccc);
+  .login-header {
+    height: 120px;
+    .login-header-logo {
+      float: left;
+      height: 70px;
+      width: 70px;
+      margin: 25px 10px 25px 25px;
+    }
+    .login-title {
+      height: 100%;
+      float: left;
+      line-height: 150px;
+      font-size: 32px;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+  }
+  .login-main {
+    height: 72%;
+  }
+  .ms-title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -230px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+
+  }
+  .ms-login {
+    position: absolute;
+    left: 50%;
+    width: 380px;
+    height: 350px;
+    margin: -200px 0 0 -190px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #20a0ff;
+    box-shadow: 1px 1px 2px #ccc;
+    .login-type {
+      width: 100%;
+      text-align: right;
+      img {
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+      }
+    }
+    .el-form {
+      padding: 20px;
+      .el-form-item {
+        margin-bottom: 12px;
+        .el-form-item__content {
+          line-height: 44px;
+          height: 44px;
+          input {
+            padding: 3px 10px;
+            height: 44px;
+          }
+          .el-input-group__append {
+            cursor: pointer;
+            width: 71px;
+            text-align: center;
+          }
+        }
+        .btn-send-code {
+          padding: 10px 10px;
+        }
+        .el-button.is-disabled {
+          background: transparent;
+        }
+        .btn-login {
+          width: 100%;
+          margin-top: 26px;
+          padding: 12px 15px;
+          font-size: 16px;
+        }
+      }
+    }
+    .ewm-login {
+      text-align: center;
+      padding: 20px;
+      img {
+        width: 180px;
+      }
+    }
+    .ewm-warning {
+      text-align: center;
+      span {
+        color: #ff6900;
+      }
+    }
+  }
+  .footer-login {
+    height: 70px;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    p {
+      text-align: center;
+      line-height: 60px;
+      color: #666;
+      font-size: 14px;
+    }
+  }
+}
